@@ -5,8 +5,14 @@ import { Routes, RouterModule } from '@angular/router';
 // project import
 import { AdminComponent } from './theme/layout/admin/admin.component';
 import { GuestComponent } from './theme/layout/guest/guest.component';
+import { ProjectsComponent } from './trainer/Projects/Projects.component';
+import { ProjectsPwsComponent } from './trainer/Projects/ProjectsPws/ProjectsPws.component';
 
 const routes: Routes = [
+
+  { path: "projects", component: ProjectsComponent },
+  { path: "project-pws", component: ProjectsPwsComponent },
+
   {
     path: '',
     component: AdminComponent,
@@ -62,4 +68,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

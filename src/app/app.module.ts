@@ -9,7 +9,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminComponent } from './theme/layout/admin/admin.component';
 import { GuestComponent } from './theme/layout/guest/guest.component';
-import { ConfigurationComponent } from './theme/layout/admin/configuration/configuration.component';
 import { NavBarComponent } from './theme/layout/admin/nav-bar/nav-bar.component';
 import { NavigationComponent } from './theme/layout/admin/navigation/navigation.component';
 import { NavLeftComponent } from './theme/layout/admin/nav-bar/nav-left/nav-left.component';
@@ -23,13 +22,13 @@ import { NavCollapseComponent } from './theme/layout/admin/navigation/nav-conten
 import { NavGroupComponent } from './theme/layout/admin/navigation/nav-content/nav-group/nav-group.component';
 import { NavItemComponent } from './theme/layout/admin/navigation/nav-content/nav-item/nav-item.component';
 import { SharedModule } from './theme/shared/shared.module';
+import { TrainerComponent } from './trainer/trainer.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     AdminComponent,
     GuestComponent,
-    ConfigurationComponent,
     NavBarComponent,
     NavigationComponent,
     NavLeftComponent,
@@ -41,8 +40,9 @@ import { SharedModule } from './theme/shared/shared.module';
     NavContentComponent,
     NavItemComponent,
     NavCollapseComponent,
-    NavGroupComponent
-  ],
+    NavGroupComponent,
+      TrainerComponent
+   ],
   imports: [BrowserModule, AppRoutingModule, SharedModule, FormsModule, ReactiveFormsModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,14 +1,39 @@
 <div class="row">
   <!-- order-card start -->
-  <div class="col-md-6 col-xl-3" *ngFor="let card of cards">
-    <app-card [hidHeader]="true" cardClass="{{ card.background }} order-card">
-      <h6 class="text-white">{{ card.title }}</h6>
-      <h2 class="text-end text-white">
-        <i class="feather {{ card.icon }} float-start"></i>
-        <span>{{ card.number }}</span>
-      </h2>
-      <p class="m-b-0">{{ card.text }}<span class="float-end">{{ card.no }}</span></p>
-    </app-card>
+  <div class="card-panel d-flex justify-content-evenly">
+    <!-- <div class="col-md-6 col-xl-3" *ngFor="let card of cards">
+      <app-card [hidHeader]="true" cardClass="{{ card.background }} order-card">
+        <h6 class="text-white fw-bold h4">{{ card.title }}</h6>
+        <h2 class="text-end text-white">
+          <i class="{{ card.icon }} float-start mt-2"></i>
+          <span>{{ card.number }}</span>
+        </h2>
+        <p class="m-b-0 text-white-50">{{ card.text }}<span class="float-end">{{ card.no }}</span></p>
+      </app-card>
+    </div> -->
+
+    <div class="col-md-6 col-xl-3">
+      <app-card [hidHeader]="true" cardClass="bg-c-blue order-card">
+        <h6 class="text-white fw-bold h4">Project</h6>
+        <h2 class="text-end text-white">
+          <i class="fa-solid fa-rectangle-vertical-history float-start mt-2"></i>
+          <span>4</span>
+        </h2>
+        <p class="m-b-0 text-white-50">Memebers Added<span class="float-end">13</span></p>
+      </app-card>
+    </div>
+
+    <div class="col-md-6 col-xl-3">
+      <app-card [hidHeader]="true" cardClass="bg-c-red order-card">
+        <h6 class="text-white fw-bold h4">Passwords</h6>
+        <h2 class="text-end text-white">
+          <i class="fa-duotone fa-key float-start mt-2"></i>
+          <span>10</span>
+        </h2>
+        <p class="m-b-0 text-white-50">Memebers Added<span class="float-end">13</span></p>
+      </app-card>
+
+    </div>
   </div>
   <!-- order-card end -->
 
