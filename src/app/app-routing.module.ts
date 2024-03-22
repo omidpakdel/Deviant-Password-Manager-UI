@@ -7,9 +7,11 @@ import { AdminComponent } from './theme/layout/admin/admin.component';
 import { GuestComponent } from './theme/layout/guest/guest.component';
 import { ProjectsComponent } from './trainer/Projects/Projects.component';
 import { ProjectsPwsComponent } from './trainer/Projects/ProjectsPws/ProjectsPws.component';
+import { ProjectComponent } from './project/project.component';
 
 const routes: Routes = [
 
+  { path: "project", component: ProjectComponent },
   { path: "projects", component: ProjectsComponent },
   { path: "project-pws", component: ProjectsPwsComponent },
 
