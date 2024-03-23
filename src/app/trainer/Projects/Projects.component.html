@@ -1,89 +1,167 @@
-<div class="container mt-5">
+<div class="container-fluid projects-bg" style="overflow-x: clip;">
 
-  <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="pt-5 ps-5">
 
-    <div class="col">
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="assets/images/img/cat.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <span class="float-end" >3 <i class="fa-light fa-users"></i></span>
-              <h5 class="card-title">
-                <i class="fa-regular fa-diagram-project fa-sm me-2 text-primary"></i>Ferdowsi Cloud</h5>
-              <p class="card-text" style="text-align: justify;padding: 10px 10px 0px 0px;">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe inventore aliquid quia pariatur explicabo.
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary">Last updated 3 mins ago</small>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="head-rout d-flex">
+      <img src="assets/images/img/projects-header.png" alt="">
+      <p class="align-self-center ms-2 p-0 m-0 fs-4">Projects</p>
     </div>
 
-    <div class="col">
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col">
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col">
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="assets/images/img/pishi.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <span class="float-end" >3 <i class="fa-light fa-users"></i></span>
-              <h5 class="card-title">
-                <i class="fa-regular fa-diagram-project fa-sm me-2 text-primary"></i>Ferdowsi Cloud</h5>
-              <p class="card-text" style="text-align: justify;padding: 10px 10px 0px 0px;">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe inventore aliquid quia pariatur explicabo.
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary">Last updated 3 mins ago</small>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>'; margin: 0px -15px;">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="javascript:"> <i class="feather icon-home"></i></a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Projects</li>
+      </ol>
+    </nav>
   </div>
 
+  <div class="container">
+
+    <div class="cart-projects mt-5">
+
+      <div class="card-projects-body d-flex justify-content-between align-items-center rounded mt-3"
+        routerLink="/sections">
+        <div class="card-projects-left d-flex align-baseline">
+
+          <div class="card-projects-left-icon">
+            <img src="assets/images/img/lock.png" alt="">
+          </div>
+
+          <div class="card-projects-left-name">
+            <p class="fw-bold fs-5" style="color: #2055F3;translate: 10px 15px;">FerdowsiCloud</p>
+          </div>
+
+        </div>
+
+        <div class="card-projects-right d-flex align-items-center w-25 justify-content-evenly mt-3">
+
+          <div class="card-projects-right-projects d-flex flex-column align-items-center">
+            <div class="card-projects-right-projects-icon" style="translate: 7px 0;">
+              <img src="assets/images/img/projects.png" width="80%">
+            </div>
+            <div class="card-projects-right-projects-count">
+              <p class="fs-5">24</p>
+            </div>
+          </div>
+
+          <div class="card-projects-right-members d-flex flex-column align-items-center">
+            <div class="card-projects-right-members-icon">
+              <img src="assets/images/img/members.png" width="80%">
+            </div>
+            <div class="card-projects-right-members-count" style="translate: -6px 6px;">
+              <p class="fs-5">13</p>
+            </div>
+          </div>
+
+          <div class="card-projects-right-passwords d-flex flex-column align-items-center">
+            <div class="card-projects-right-passwords-icon">
+              <img src="assets/images/img/passwords.png" width="100%">
+            </div>
+            <div class="card-projects-right-passwords-count" style="translate: 1px 10px;">
+              <p class="fs-5">31</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="card-projects-body d-flex justify-content-between align-items-center rounded mt-3"
+        routerLink="/sections">
+        <div class="card-projects-left d-flex align-baseline">
+
+          <div class="card-projects-left-icon">
+            <img src="assets/images/img/lock.png" alt="">
+          </div>
+
+          <div class="card-projects-left-name">
+            <p class="fw-bold fs-5" style="color: #2055F3;translate: 10px 15px;">FerdowsiCloud</p>
+          </div>
+
+        </div>
+
+        <div class="card-projects-right d-flex align-items-center w-25 justify-content-evenly mt-3">
+
+          <div class="card-projects-right-projects d-flex flex-column align-items-center">
+            <div class="card-projects-right-projects-icon" style="translate: 7px 0;">
+              <img src="assets/images/img/projects.png" width="80%">
+            </div>
+            <div class="card-projects-right-projects-count">
+              <p class="fs-5">24</p>
+            </div>
+          </div>
+
+          <div class="card-projects-right-members d-flex flex-column align-items-center">
+            <div class="card-projects-right-members-icon">
+              <img src="assets/images/img/members.png" width="80%">
+            </div>
+            <div class="card-projects-right-members-count" style="translate: -6px 6px;">
+              <p class="fs-5">13</p>
+            </div>
+          </div>
+
+          <div class="card-projects-right-passwords d-flex flex-column align-items-center">
+            <div class="card-projects-right-passwords-icon">
+              <img src="assets/images/img/passwords.png" width="100%">
+            </div>
+            <div class="card-projects-right-passwords-count" style="translate: 1px 10px;">
+              <p class="fs-5">31</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="card-projects-body d-flex justify-content-between align-items-center rounded mt-3"
+        routerLink="/sections">
+        <div class="card-projects-left d-flex align-baseline">
+
+          <div class="card-projects-left-icon">
+            <img src="assets/images/img/lock.png" alt="">
+          </div>
+
+          <div class="card-projects-left-name">
+            <p class="fw-bold fs-5" style="color: #2055F3;translate: 10px 15px;">FerdowsiCloud</p>
+          </div>
+
+        </div>
+
+        <div class="card-projects-right d-flex align-items-center w-25 justify-content-evenly mt-3">
+
+          <div class="card-projects-right-projects d-flex flex-column align-items-center">
+            <div class="card-projects-right-projects-icon" style="translate: 7px 0;">
+              <img src="assets/images/img/projects.png" width="80%">
+            </div>
+            <div class="card-projects-right-projects-count">
+              <p class="fs-5">24</p>
+            </div>
+          </div>
+
+          <div class="card-projects-right-members d-flex flex-column align-items-center">
+            <div class="card-projects-right-members-icon">
+              <img src="assets/images/img/members.png" width="80%">
+            </div>
+            <div class="card-projects-right-members-count" style="translate: -6px 6px;">
+              <p class="fs-5">13</p>
+            </div>
+          </div>
+
+          <div class="card-projects-right-passwords d-flex flex-column align-items-center">
+            <div class="card-projects-right-passwords-icon">
+              <img src="assets/images/img/passwords.png" width="100%">
+            </div>
+            <div class="card-projects-right-passwords-count" style="translate: 1px 10px;">
+              <p class="fs-5">31</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
 </div>

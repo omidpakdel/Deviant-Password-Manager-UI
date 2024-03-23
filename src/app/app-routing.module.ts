@@ -5,17 +5,13 @@ import { Routes, RouterModule } from '@angular/router';
 // project import
 import { AdminComponent } from './theme/layout/admin/admin.component';
 import { GuestComponent } from './theme/layout/guest/guest.component';
-import { ProjectsComponent } from './trainer/Projects/Projects.component';
-import { ProjectsPwsComponent } from './trainer/Projects/ProjectsPws/ProjectsPws.component';
-import { ProjectComponent } from './project/project.component';
-import { SectionsComponent } from './sections/sections.component';
+import { ProjectComponent } from './trainer/projects/projects.component';
+import { SectionsComponent } from './trainer/sections/sections.component';
 
 const routes: Routes = [
 
-  { path: "project", component: ProjectComponent },
+  { path: "projects", component: ProjectComponent },
   { path: "sections", component: SectionsComponent },
-  { path: "projects", component: ProjectsComponent },
-  { path: "project-pws", component: ProjectsPwsComponent },
 
   {
     path: '',

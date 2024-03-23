@@ -1,0 +1,26 @@
+.card-projects-body {
+    background: #FAFAFA;
+    padding: 0 15px;
+    box-shadow: 0 0 4px #ec82f840;
+}
+
+p {
+    font-family: cursive;
+}
+
+.card-projects-right p {
+    color: #F651C1;
+}
+
+.projects-bg {
+    background-color: #F1F5FE;
+    background-image: url("../../../assets/images/img/projects-bg.png");
+    height: 100vh;
+    background-blend-mode: exclusion;
+
+}
+
+.card-projects-body:hover {
+    background: aliceblue;
+    cursor: pointer;
+}

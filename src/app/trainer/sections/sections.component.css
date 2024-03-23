@@ -1,6 +1,6 @@
 .projects-bg {
     background-color: #F1F5FE;
-    background-image: url("../../assets/images/img/projects-bg.png");
+    background-image: url("../../../assets/images/img/projects-bg.png");
     height: 100vh;
     background-blend-mode: exclusion;
 }
@@ -32,7 +32,7 @@ p {
 }
 
 .member1 {
-    background-image: url(../../assets/images/img/omid.jpg);
+    background-image: url(../../../assets/images/img/omid.jpg);
     object-fit: cover;
     background-size: cover;
     position: absolute;
@@ -40,7 +40,7 @@ p {
 }
 
 .member2 {
-    background-image: url(../../assets/images/img/cat2.jpg);
+    background-image: url(../../../assets/images/img/cat2.jpg);
     object-fit: cover;
     background-size: cover;
     position: absolute;
@@ -49,7 +49,7 @@ p {
 }
 
 .member3 {
-    background-image: url(../../assets/images/img/girl1.jpg);
+    background-image: url(../../../assets/images/img/girl1.jpg);
     object-fit: cover;
     background-size: cover;
     position: absolute;
@@ -58,7 +58,7 @@ p {
 }
 
 .member4 {
-    background-image: url(../../assets/images/img/bagheri.jpg);
+    background-image: url(../../../assets/images/img/bagheri.jpg);
     object-fit: cover;
     background-size: cover;
     position: absolute;
