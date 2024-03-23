@@ -24,9 +24,10 @@ import { NavItemComponent } from './theme/layout/admin/navigation/nav-content/na
 import { SharedModule } from './theme/shared/shared.module';
 import { TrainerComponent } from './trainer/trainer.component';
 import { ProjectComponent } from './project/project.component';
+import { SectionsComponent } from './sections/sections.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [			
     AppComponent,
     AdminComponent,
     GuestComponent,
@@ -43,7 +44,8 @@ import { ProjectComponent } from './project/project.component';
     NavCollapseComponent,
     NavGroupComponent,
       TrainerComponent,
-      ProjectComponent
+      ProjectComponent,
+      SectionsComponent
    ],
   imports: [BrowserModule, AppRoutingModule, SharedModule, FormsModule, ReactiveFormsModule, BrowserAnimationsModule],
   providers: [],
